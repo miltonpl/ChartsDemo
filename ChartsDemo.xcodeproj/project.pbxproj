@@ -3,23 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0B07BD934D7236F329CEA3 /* Pods_ChartsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03AD187DA239706F32DC56 /* Pods_ChartsDemo.framework */; };
+		523DBCB425D4E50D0000F1A9 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DBCB325D4E50D0000F1A9 /* LineChartViewController.swift */; };
+		523DBCB625D4E52C0000F1A9 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DBCB525D4E52C0000F1A9 /* BarChartViewController.swift */; };
+		523DBCBA25D4E79A0000F1A9 /* GraphChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DBCB925D4E79A0000F1A9 /* GraphChartViewController.swift */; };
 		52F5085925D439F300AEE227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5085825D439F300AEE227 /* AppDelegate.swift */; };
 		52F5085B25D439F300AEE227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5085A25D439F300AEE227 /* SceneDelegate.swift */; };
-		52F5085D25D439F300AEE227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5085C25D439F300AEE227 /* ViewController.swift */; };
+		52F5085D25D439F300AEE227 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5085C25D439F300AEE227 /* PieChartViewController.swift */; };
 		52F5086025D439F300AEE227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F5085E25D439F300AEE227 /* Main.storyboard */; };
 		52F5086225D439F600AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F5086125D439F600AEE227 /* Assets.xcassets */; };
 		52F5086525D439F600AEE227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F5086325D439F600AEE227 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		52F5087C25D43C0F00AEE227 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F03AD187DA239706F32DC56 /* Pods_ChartsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		258595FCCC4DED43F7D70192 /* Pods-ChartsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3C7CDBE4CD05D575CF32F910 /* Pods-ChartsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.release.xcconfig"; path = "Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		523DBCB325D4E50D0000F1A9 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		523DBCB525D4E52C0000F1A9 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		523DBCB925D4E79A0000F1A9 /* GraphChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphChartViewController.swift; sourceTree = "<group>"; };
 		52F5085525D439F300AEE227 /* ChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F5085825D439F300AEE227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52F5085A25D439F300AEE227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52F5085C25D439F300AEE227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52F5085C25D439F300AEE227 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		52F5085F25D439F300AEE227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52F5086125D439F600AEE227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F5086425D439F600AEE227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +54,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0B07BD934D7236F329CEA3 /* Pods_ChartsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053B838E34465E43F24FCF3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258595FCCC4DED43F7D70192 /* Pods-ChartsDemo.debug.xcconfig */,
+				3C7CDBE4CD05D575CF32F910 /* Pods-ChartsDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		523DBCB025D4E4E10000F1A9 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				523DBCB125D4E4E20000F1A9 /* Controller */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		523DBCB125D4E4E20000F1A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				523DBCB525D4E52C0000F1A9 /* BarChartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		523DBCB225D4E4F40000F1A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				523DBCB325D4E50D0000F1A9 /* LineChartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		523DBCB725D4E7810000F1A9 /* GraphChart */ = {
+			isa = PBXGroup;
+			children = (
+				523DBCB825D4E7820000F1A9 /* Controller */,
+			);
+			path = GraphChart;
+			sourceTree = "<group>";
+		};
+		523DBCB825D4E7820000F1A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				523DBCB925D4E79A0000F1A9 /* GraphChartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		52F5084C25D439F300AEE227 = {
 			isa = PBXGroup;
 			children = (
 				52F5085725D439F300AEE227 /* ChartsDemo */,
 				52F5085625D439F300AEE227 /* Products */,
+				053B838E34465E43F24FCF3B /* Pods */,
+				F5635F46506D75C0188C80A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +131,82 @@
 		52F5085725D439F300AEE227 /* ChartsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				52F5085825D439F300AEE227 /* AppDelegate.swift */,
-				52F5085A25D439F300AEE227 /* SceneDelegate.swift */,
-				52F5085C25D439F300AEE227 /* ViewController.swift */,
-				52F5085E25D439F300AEE227 /* Main.storyboard */,
-				52F5086125D439F600AEE227 /* Assets.xcassets */,
-				52F5086325D439F600AEE227 /* LaunchScreen.storyboard */,
-				52F5086625D439F600AEE227 /* Info.plist */,
+				52F5087325D43A8800AEE227 /* Sopport Files */,
+				52F5086F25D43A3D00AEE227 /* Screens */,
+				52F5086D25D43A3D00AEE227 /* Resources */,
 			);
 			path = ChartsDemo;
+			sourceTree = "<group>";
+		};
+		52F5086D25D43A3D00AEE227 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52F5086125D439F600AEE227 /* Assets.xcassets */,
+				52F5086625D439F600AEE227 /* Info.plist */,
+				52F5086E25D43A3D00AEE227 /* UI */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52F5086E25D43A3D00AEE227 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52F5086325D439F600AEE227 /* LaunchScreen.storyboard */,
+				52F5085E25D439F300AEE227 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		52F5086F25D43A3D00AEE227 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				523DBCB725D4E7810000F1A9 /* GraphChart */,
+				523DBCB025D4E4E10000F1A9 /* BarChart */,
+				52F5087125D43A3D00AEE227 /* LineChart */,
+				52F5087025D43A3D00AEE227 /* PieChart */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		52F5087025D43A3D00AEE227 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				52F5087225D43A3D00AEE227 /* Controller */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		52F5087125D43A3D00AEE227 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				523DBCB225D4E4F40000F1A9 /* Controller */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		52F5087225D43A3D00AEE227 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52F5085C25D439F300AEE227 /* PieChartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52F5087325D43A8800AEE227 /* Sopport Files */ = {
+			isa = PBXGroup;
+			children = (
+				52F5085A25D439F300AEE227 /* SceneDelegate.swift */,
+				52F5085825D439F300AEE227 /* AppDelegate.swift */,
+			);
+			path = "Sopport Files";
+			sourceTree = "<group>";
+		};
+		F5635F46506D75C0188C80A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F03AD187DA239706F32DC56 /* Pods_ChartsDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52F5086925D439F600AEE227 /* Build configuration list for PBXNativeTarget "ChartsDemo" */;
 			buildPhases = (
+				B9E1F451BE5FE00562197580 /* [CP] Check Pods Manifest.lock */,
 				52F5085125D439F300AEE227 /* Sources */,
 				52F5085225D439F300AEE227 /* Frameworks */,
 				52F5085325D439F300AEE227 /* Resources */,
+				52F5087C25D43C0F00AEE227 /* Embed Frameworks */,
+				ADB8766CB8AB298A2C89171A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +277,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADB8766CB8AB298A2C89171A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E1F451BE5FE00562197580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52F5085125D439F300AEE227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F5085D25D439F300AEE227 /* ViewController.swift in Sources */,
+				52F5085D25D439F300AEE227 /* PieChartViewController.swift in Sources */,
+				523DBCB425D4E50D0000F1A9 /* LineChartViewController.swift in Sources */,
+				523DBCBA25D4E79A0000F1A9 /* GraphChartViewController.swift in Sources */,
 				52F5085925D439F300AEE227 /* AppDelegate.swift in Sources */,
 				52F5085B25D439F300AEE227 /* SceneDelegate.swift in Sources */,
+				523DBCB625D4E52C0000F1A9 /* BarChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +473,14 @@
 		};
 		52F5086A25D439F600AEE227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258595FCCC4DED43F7D70192 /* Pods-ChartsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWYBXAANR7;
-				INFOPLIST_FILE = ChartsDemo/Info.plist;
+				INFOPLIST_FILE = ChartsDemo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +494,14 @@
 		};
 		52F5086B25D439F600AEE227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7CDBE4CD05D575CF32F910 /* Pods-ChartsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWYBXAANR7;
-				INFOPLIST_FILE = ChartsDemo/Info.plist;
+				INFOPLIST_FILE = ChartsDemo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

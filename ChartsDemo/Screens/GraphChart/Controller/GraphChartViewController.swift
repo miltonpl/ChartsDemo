@@ -12,7 +12,10 @@ class GraphChartViewController: UIViewController {
     @IBOutlet weak var lineChartView: LineChartView! {
         didSet {
             self.lineChartView.borderColor = .blue
-            self.lineChartView.rightAxis.enabled = false
+//            self.lineChartView.leftAxis.drawLabelsEnabled = false
+//            self.lineChartView.rightAxis.enabled = false
+//            self.lineChartView.rightAxis.drawZeroLineEnabled = false
+            
             let yAxis = self.lineChartView.leftAxis
             yAxis.labelFont = .boldSystemFont(ofSize: 10)
             yAxis.setLabelCount(6, force: false)
@@ -24,8 +27,9 @@ class GraphChartViewController: UIViewController {
             self.lineChartView.xAxis.labelPosition = .bottom
             self.lineChartView.xAxis.labelTextColor = .blue
             self.lineChartView.xAxis.labelFont = .boldSystemFont(ofSize: 10)
+            self.lineChartView.xAxis.labelCount = 1
             self.lineChartView.xAxis.setLabelCount(4, force: false)
-            self.lineChartView.animate(xAxisDuration: 2.5)
+            self.lineChartView.animate(xAxisDuration: 1.5)
         }
     }
     var elevationDataEntries = [ChartDataEntry]()
@@ -47,21 +51,25 @@ class GraphChartViewController: UIViewController {
             self.speedDataEntries.append(ChartDataEntry(x: Double(x), y: y))
         }
         
-        let chartDataSet = LineChartDataSet(entries: self.speedDataEntries, label: "Epeed")
+        let chartDataSet = LineChartDataSet(entries: self.speedDataEntries, label: "Speed")
         chartDataSet.drawCirclesEnabled = false
+        chartDataSet.axisDependency = .left
         chartDataSet.mode = .cubicBezier
         chartDataSet.lineWidth = 1.5
+//        chartDataSet.lineWidth = 0.0
         chartDataSet.setColor(.red)
+        
         self.speedDataSet = chartDataSet
     }
     
     func setupElevationLine() {
         for x in 0...30 {
-            let y = Double.random(in: 0...100)
+            let y = Double.random(in: 0...10)
             self.elevationDataEntries.append(ChartDataEntry(x: Double(x), y: y))
         }
         let chartDataSet = LineChartDataSet(entries: self.elevationDataEntries, label: "Elevation")
         chartDataSet.drawCirclesEnabled = false
+        chartDataSet.axisDependency = .right
         chartDataSet.mode = .cubicBezier
         chartDataSet.lineWidth = 1.5
         chartDataSet.fill = Fill(color: .blue)

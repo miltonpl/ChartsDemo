@@ -11,6 +11,7 @@
 		523DBCB425D4E50D0000F1A9 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DBCB325D4E50D0000F1A9 /* LineChartViewController.swift */; };
 		523DBCB625D4E52C0000F1A9 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DBCB525D4E52C0000F1A9 /* BarChartViewController.swift */; };
 		523DBCBA25D4E79A0000F1A9 /* GraphChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DBCB925D4E79A0000F1A9 /* GraphChartViewController.swift */; };
+		52CBFCEB25E1D7B6009DE4F0 /* ChartsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBFCEA25E1D7B6009DE4F0 /* ChartsDemoTests.swift */; };
 		52F5085925D439F300AEE227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5085825D439F300AEE227 /* AppDelegate.swift */; };
 		52F5085B25D439F300AEE227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5085A25D439F300AEE227 /* SceneDelegate.swift */; };
 		52F5085D25D439F300AEE227 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5085C25D439F300AEE227 /* PieChartViewController.swift */; };
@@ -18,6 +19,16 @@
 		52F5086225D439F600AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F5086125D439F600AEE227 /* Assets.xcassets */; };
 		52F5086525D439F600AEE227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F5086325D439F600AEE227 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52CBFCED25E1D7B6009DE4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F5084D25D439F300AEE227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F5085425D439F300AEE227;
+			remoteInfo = ChartsDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		52F5087C25D43C0F00AEE227 /* Embed Frameworks */ = {
@@ -39,6 +50,9 @@
 		523DBCB325D4E50D0000F1A9 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
 		523DBCB525D4E52C0000F1A9 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		523DBCB925D4E79A0000F1A9 /* GraphChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphChartViewController.swift; sourceTree = "<group>"; };
+		52CBFCE825E1D7B6009DE4F0 /* ChartsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CBFCEA25E1D7B6009DE4F0 /* ChartsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDemoTests.swift; sourceTree = "<group>"; };
+		52CBFCEC25E1D7B6009DE4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F5085525D439F300AEE227 /* ChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F5085825D439F300AEE227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52F5085A25D439F300AEE227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52CBFCE525E1D7B6009DE4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52F5085225D439F300AEE227 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,10 +131,20 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		52CBFCE925E1D7B6009DE4F0 /* ChartsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52CBFCEA25E1D7B6009DE4F0 /* ChartsDemoTests.swift */,
+				52CBFCEC25E1D7B6009DE4F0 /* Info.plist */,
+			);
+			path = ChartsDemoTests;
+			sourceTree = "<group>";
+		};
 		52F5084C25D439F300AEE227 = {
 			isa = PBXGroup;
 			children = (
 				52F5085725D439F300AEE227 /* ChartsDemo */,
+				52CBFCE925E1D7B6009DE4F0 /* ChartsDemoTests */,
 				52F5085625D439F300AEE227 /* Products */,
 				053B838E34465E43F24FCF3B /* Pods */,
 				F5635F46506D75C0188C80A3 /* Frameworks */,
@@ -124,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				52F5085525D439F300AEE227 /* ChartsDemo.app */,
+				52CBFCE825E1D7B6009DE4F0 /* ChartsDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,6 +244,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		52CBFCE725E1D7B6009DE4F0 /* ChartsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CBFCF125E1D7B6009DE4F0 /* Build configuration list for PBXNativeTarget "ChartsDemoTests" */;
+			buildPhases = (
+				52CBFCE425E1D7B6009DE4F0 /* Sources */,
+				52CBFCE525E1D7B6009DE4F0 /* Frameworks */,
+				52CBFCE625E1D7B6009DE4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52CBFCEE25E1D7B6009DE4F0 /* PBXTargetDependency */,
+			);
+			name = ChartsDemoTests;
+			productName = ChartsDemoTests;
+			productReference = 52CBFCE825E1D7B6009DE4F0 /* ChartsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		52F5085425D439F300AEE227 /* ChartsDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52F5086925D439F600AEE227 /* Build configuration list for PBXNativeTarget "ChartsDemo" */;
@@ -238,9 +288,13 @@
 		52F5084D25D439F300AEE227 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					52CBFCE725E1D7B6009DE4F0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 52F5085425D439F300AEE227;
+					};
 					52F5085425D439F300AEE227 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -260,11 +314,19 @@
 			projectRoot = "";
 			targets = (
 				52F5085425D439F300AEE227 /* ChartsDemo */,
+				52CBFCE725E1D7B6009DE4F0 /* ChartsDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52CBFCE625E1D7B6009DE4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52F5085325D439F300AEE227 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,6 +382,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		52CBFCE425E1D7B6009DE4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CBFCEB25E1D7B6009DE4F0 /* ChartsDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52F5085125D439F300AEE227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +404,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52CBFCEE25E1D7B6009DE4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F5085425D439F300AEE227 /* ChartsDemo */;
+			targetProxy = 52CBFCED25E1D7B6009DE4F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52F5085E25D439F300AEE227 /* Main.storyboard */ = {
@@ -355,6 +433,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		52CBFCEF25E1D7B6009DE4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWYBXAANR7;
+				INFOPLIST_FILE = ChartsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palaguachi.ChartsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartsDemo.app/ChartsDemo";
+			};
+			name = Debug;
+		};
+		52CBFCF025E1D7B6009DE4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWYBXAANR7;
+				INFOPLIST_FILE = ChartsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palaguachi.ChartsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartsDemo.app/ChartsDemo";
+			};
+			name = Release;
+		};
 		52F5086725D439F600AEE227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -516,6 +636,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52CBFCF125E1D7B6009DE4F0 /* Build configuration list for PBXNativeTarget "ChartsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CBFCEF25E1D7B6009DE4F0 /* Debug */,
+				52CBFCF025E1D7B6009DE4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52F5085025D439F300AEE227 /* Build configuration list for PBXProject "ChartsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
